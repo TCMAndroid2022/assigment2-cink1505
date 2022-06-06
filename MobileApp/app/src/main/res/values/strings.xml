@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Cattecnocampusmobileappsmarinismaelmobilesapp</string>
+    <string name="nameText">Enter a name:</string>
+    <string name="nameHint">Enter a name here</string>
+    <string name="couplesText">Enter a number of couples:</string>
+    <string name="pointsText">, number of points:\u00A0</string>
+    <string name="error_empty">You have not entered any value</string>
+    <string name="couplesHint">Enter a number here</string>
+    <string name="startGame">Start Game</string>
+    <string name="results">Results</string>
+    <string name="userName">Your name is:\u00A0</string>
+    <string name="closed"> @android:drawable/ic_menu_view </string>
+    <string name="openned"> @android:drawable/ic_menu_myplaces </string>
+    <string name="sure_back">Are you sure you want to close the screen?</string>
+    <string name="sure_back_app">Are you sure you want to close the app?</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">NO</string>
+    <string name="gameOver">The winner is:\u00A0</string>
+    <string name="gameOver2">\u00A0with a\u00A0</string>
+    <string name="gameOver3">\u00A0points. </string>
+    <string name="gameOver4">\n Data saved. </string>
+    <string name="nameRanking">The user:\u00A0</string>
+    <string name="nothing" />
+    <string name="hasRanking">\u00A0has:\u00A0</string>
+    <string name="sure_clear">Are you sure you want to clear all results?</string>
+</resources>

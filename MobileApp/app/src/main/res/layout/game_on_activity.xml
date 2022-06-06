@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game_on_activity"
+    android:orientation="vertical"
+    android:background="@color/myBackground"
+
+    tools:context=".activity.GameOnActivity">
+
+
+
+    <TextView
+        android:id="@+id/et_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/userName"
+        android:textColor="@color/black" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:id="@+id/hscroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/collection_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                />
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
