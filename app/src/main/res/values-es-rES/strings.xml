@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adivina La Palabra</string>
+    <string name="login_text">Tu usuario:</string>
+    <string name="login_et">e.j.: Juan</string>
+    <string name="login_btn">Empezar</string>
+    <string name="ranking_btn">Jugar de nuevo</string>
+    <string name="detail_btn">Atras</string>
+</resources>

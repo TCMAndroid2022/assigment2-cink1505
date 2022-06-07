@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guess The Word</string>
+    <string name="login_text">Your Username:</string>
+    <string name="login_et">e.x.: Juan</string>
+    <string name="login_btn">Start</string>
+    <string name="ranking_btn">Play again</string>
+    <string name="detail_btn">Back</string>
+</resources>
